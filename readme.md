@@ -55,7 +55,7 @@ Modellare la struttura di un database per memorizzare tutti i dati riguardanti u
 - matricola | VARCHAR(15) - UNIQUE
 - corso_di_laurea_id | FK - BIGINT 
 
-## Iscrizioni esami
+## Appelli
 - id | BIGINT - PK - AI
 - studente_id | FK - BIGINT
 - esame_id | FK - BIGINT
